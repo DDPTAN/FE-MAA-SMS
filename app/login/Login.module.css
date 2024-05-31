@@ -1,0 +1,103 @@
+.header { 
+    margin: 0;
+    margin-top: 20px;
+}
+
+.loginWrapper { 
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textWrapper {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+
+.loginOutline {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    min-height: 650px; /* Ensure it has a minimum height */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Smooth border color */
+    background-color: #fff;
+    border-radius: 45px; /* Smooth, rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 100px 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.loginOutline:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.forgotPasswordWrapper { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: var(--primary-color)
+}
+
+.inputWrapper { 
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.inputWrapper label {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.inputIconContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.inputIconContainer .icon {
+    position: absolute;
+    left: 10px;
+    color: var(--secondary-color);
+}
+
+.inputIconContainer input { 
+    padding: 5px 5px 5px 35px; /* adjust padding to make space for the icon */
+    width: 100%;
+    border-radius: 45px;
+    outline: none;
+    border-color: var(--secondary);
+    border: 1px solid var(--primary-color);
+}
+
+.toggleWrapper { 
+    margin-top: 30px;
+}
+
+.toggleInput { 
+    display: flex;
+    gap: 5px;
+}
+
+.loginButtonWrapper button {
+    width: 100%;
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 10px 0; /* Add padding for better appearance */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.loginButtonWrapper button:hover { 
+    background-color: var(--secondary-color);
+    color: white;
+    transform: scale(1.05); /* Slightly scale up the button on hover */
+}
